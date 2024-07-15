@@ -1,7 +1,7 @@
 {
     "scripts": {
         "test": "jest --verbose",
-        "coverage": "jest --coverage",
+        "coverage": "jest --coverage  numberFunctions.test.js",
         "number-test": "jest numberFunctions.test.js",
         "string-test": "jest --verbose stringFunctions.test.js"
     },
